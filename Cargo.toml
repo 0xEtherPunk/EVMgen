@@ -1,0 +1,25 @@
+[package]
+name = "evmgen"
+version = "0.1.0"
+edition = "2021"
+authors = ["0xEtherPunk"]
+license = "MIT"
+
+[dependencies]
+secp256k1 = { version = "0.28", features = ["rand-std"] }
+tiny-keccak = { version = "2.0", features = ["keccak"] }
+ed25519-dalek = { version = "2.1", features = ["rand_core"] }
+bs58 = "0.5"
+rand = "0.8"
+crossterm = "0.27"
+ctrlc = "3.4"
+zeroize = { version = "1.7", features = ["zeroize_derive"] }
+hex = "0.4"
+arboard = "3.4"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = true
