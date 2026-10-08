@@ -1,6 +1,6 @@
 # evmgen
 
-High-performance, multi-threaded vanity wallet address generator for EVM and Solana blockchains.
+Vanity wallet address generator for EVM and Solana blockchains.
 
 Written in Rust. Fully offline, zero disk writes, secure in-memory zeroization upon exit.
 
