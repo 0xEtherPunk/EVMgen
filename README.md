@@ -5,7 +5,8 @@ High-performance, multi-threaded vanity wallet address generator for EVM and Sol
 Written in Rust. Fully offline, zero disk writes, secure in-memory zeroization upon exit.
 
 <p align="center">
-  <img src="cli.gif" alt="evmgen demonstration" />
+  <img src="cli.gif" alt="evmgen demonstration" width="65%" />
+  <img src="0x676767.png" alt="Example vanity wallet output" width="31%" />
 </p>
 
 ---
@@ -30,10 +31,6 @@ Written in Rust. Fully offline, zero disk writes, secure in-memory zeroization u
   - Sensitive cryptographic material scrubbed using `zeroize` upon termination.
 
 ---
-
-<p align="center">
-  <img src="0x676767.png" alt="Example vanity wallet output" />
-</p>
 
 ## Performance Notes
 
