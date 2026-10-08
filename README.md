@@ -4,6 +4,10 @@ High-performance, multi-threaded vanity wallet address generator for EVM and Sol
 
 Written in Rust. Fully offline, zero disk writes, secure in-memory zeroization upon exit.
 
+<p align="center">
+  <img src="cli.gif" alt="evmgen demonstration" />
+</p>
+
 ---
 
 ## Features
