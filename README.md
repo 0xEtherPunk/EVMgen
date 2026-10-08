@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="0x676767.png" alt="Example vanity wallet output" />
-</p>
-
 # evmgen
 
 High-performance, multi-threaded vanity wallet address generator for EVM and Solana blockchains.
@@ -34,6 +30,10 @@ Written in Rust. Fully offline, zero disk writes, secure in-memory zeroization u
   - Sensitive cryptographic material scrubbed using `zeroize` upon termination.
 
 ---
+
+<p align="center">
+  <img src="0x676767.png" alt="Example vanity wallet output" />
+</p>
 
 ## Performance Notes
 
