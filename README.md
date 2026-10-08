@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="0x676767.png" alt="Example vanity wallet output" />
+</p>
+
 # evmgen
 
 High-performance, multi-threaded vanity wallet address generator for EVM and Solana blockchains.
